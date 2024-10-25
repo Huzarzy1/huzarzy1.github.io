@@ -1,0 +1,80 @@
+<!-- 
+    CSCI 1170: Intro to Web Design & Development (Fall 2024)
+    Section 02
+
+    Example used during lecture discussion on Oct 21, 2024
+    Exploratory discussion on CSS
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling web pages using CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Kablammo&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <!-- internal stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="pg-banner">
+        <h1>Styling web pages using CSS</h1>
+    </header>
+
+    <main class="pg-main-content">
+        <section class="focus">
+            <h2 class="blue">Topics of focus</h2>
+            <ul>
+                <li>(Recap) Managing web page content using HTML</li>
+                <li>(Recap) Making web page elements behave using JavaScript</li>
+                <li>(Recap) Encoding content in client-server communication using JavaScript Object Notation (JSON)</li>
+                <li>Fundamentals of styling web pages using CSS (Cascading Style Sheets)</li>
+            </ul>    
+        </section>
+        <section id="recap">
+            <h2 class="blue">Recap of HTML and JS</h2>
+            <ul>
+                <li id="recap-html">HTML:
+                    <ul>
+                        <li>What is a <em>container</em>?</li>
+                        <li>What is the difference between <em>structural</em> and <em>semantic</em> elements?</li>
+                        <li>Why do we use <code>class</code> and <code>id</code> attributes?</li>
+                    </ul>
+                </li>
+                <li id="recap-js">JS:
+                    <ul>
+                        <li>How do we select or target:<br>(a) <em>one element on the page</em>?<br>(b) <em>a few elements</em> on the page? and<br>(c) <em>all elements of one type</em>?</li>
+                        <li>How do we configure an <em>event listener</em>?</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="info-box">
+            <h2 class="blue">Information box</h2>
+            <button class="btn">点击此处获取报价
+                点击此处获取报价
+                点击此处获取报价
+                点击此处获取报价
+                点击此处获取报价
+                点击此处获取报价
+                点击此处获取报价
+                点击此处获取报价
+            </button>
+        </section>
+
+        <div class="train">咒骂者</div>
+    </main>
+
+    <footer class="pg-footer">
+        <p>&copy; 2024. This website.</p>
+    </footer>
+
+    <!-- This JS file contains Star Wars data -->
+    <script src="js/data.js"></script>
+
+    <!-- This JS file uses the Star Wars data from the file above -->
+    <script src="js/script.js"></script>
+</body>
+</html>
