@@ -63,6 +63,31 @@ li > a:hover {
     font-size: 25px;
 }
 
+.contact-us {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+
+    padding: 0px 50px;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+    transition-duration: 0.8s;
+}
+
+.contact-us > p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-us:hover {
+    background-color: black;
+}
+
 .focus {
 
 }
@@ -86,7 +111,7 @@ li > a:hover {
 
     background-color: white;
 
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
 }
 
@@ -112,6 +137,18 @@ li > a:hover {
 .buynow:hover {
     background-color: black;
     color: white;
+}
+
+.price {
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: khaki;
+    margin-top: 30px;
+    padding: 20px 0px;
 }
 
 /* OLD CODE
