@@ -88,10 +88,6 @@ li > a:hover {
     background-color: black;
 }
 
-.focus {
-
-}
-
 .media {
     display: flex;
     align-items: center;

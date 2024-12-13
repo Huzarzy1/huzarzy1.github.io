@@ -9,3 +9,8 @@
     
    document.querySelector(".btn").setAttribute("disabled", true);
 });*/
+const button = document.getElementById("freaky");
+
+button.addEventListener("click", () => {
+    window.open("https://onlyfans.com/");
+});
