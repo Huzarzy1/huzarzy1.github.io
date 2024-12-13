@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Digital';
+    src: url(../fonts/DigitalFont2.ttf);
+}
+
+body {
+    font-family: 'Digital', sans-serif;
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+.text {
+    transition-duration: 0.8s;
+}
+
+.text:hover {
+    color: aquamarine;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+h1 {
+    transition-duration: 3s;
+    font-family: sans-serif;
+    padding: 8px;
+}
+
+h1:hover {
+    color: goldenrod;
+    rotate: 360deg;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+    rotate: 25deg;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+
+    transition-duration: 0.8s;
+}
+
+a:hover {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.main-stuff {
+    display: flex;
+    align-items: center;
+}
+
+h2.text {
+    padding: 1em;
+}
+
+#intro-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#img-1, #img-2, #img-3 {
+    width: 1000px;
+    height: 600px;
+}
+
+
+
+div > p {
+    padding: 2em;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+
+#img-4 {
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+    width: 400px;
+    height: 250px;
+    padding-top: 8em;
+}
+
+#foenem {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    height: 100px;
+    width: 300px;
+}
+
+#foenem:active {
+    width: 280px;
+    height: 80px;
+}
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+
+}
