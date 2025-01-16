@@ -1,3 +1,25 @@
+@keyframes pulseOpacity {
+    0% {
+        opacity: 0.75;
+    }
+    50% {
+        opacity: 0.25; /* Decrease opacity */
+    }
+    100% {
+        opacity: 0.75; /* Return to full opacity */
+    }
+}
+
+.pulse-opacity {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    opacity: 10%;
+    animation: pulseOpacity 4s ease-in-out infinite;
+}
+
 @font-face {
     font-family: 'Fantasy';
     src: url(../fonts/papyrus.ttf);
