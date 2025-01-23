@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Papyrus';
+    src: url(../fonts/papyrus.ttf);
+}
+
+@font-face {
+    font-family: 'gumball';
+    src: url(../fonts/happyfrushzero.ttf);
+}
+
+body {
+    text-align: center;
+    font-family: 'Papyrus', sans-serif;
+
+    margin: 0;
+
+    background-color: beige;
+    color: brown;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: khaki;
+    padding: 0 18px;
+
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+h1 > a {
+    transition-duration: 0.8s;
+    color: brown;
+    text-decoration: none;
+}
+
+h1:hover {
+    color: black;
+}
+
+h2 {
+    flex: 100%;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+li {
+    font-style: italic;
+    list-style: none;
+    rotate: -25deg;
+}
+
+li > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: brown;
+
+    transition-duration: 0.8s;
+}
+
+li > a:hover {
+    color: black;
+    font-size: 25px;
+}
+
+.contact-us {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+
+    padding: 0px 50px;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+    transition-duration: 0.8s;
+}
+
+.contact-us > p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-us:hover {
+    background-color: black;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main {
+    font-family: 'gumball';
+    display: flex;
+    flex-direction: column;
+}
+
+main > p {
+    font-size: 40px;
+}
+
+footer {
+    background-color: khaki;
+    margin-top: 30px;
+    padding: 20px 0px;
+}

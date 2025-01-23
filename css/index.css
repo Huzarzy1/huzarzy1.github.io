@@ -110,6 +110,10 @@ li > a:hover {
     background-color: black;
 }
 
+.tiktok-embed {
+    background-color: khaki;
+}
+
 .media {
     display: flex;
     align-items: center;
