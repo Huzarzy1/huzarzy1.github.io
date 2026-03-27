@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreiberg Kaufplatz - Warenkorb</title>
+
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Shop</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#warenkorb</h2>
+        <p>Geben Sie Ihren Gutscheincode ein und sparen Sie bis zu 70 %!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Entfernen</td>
+                    <td>Bild</td>
+                    <td>Produkt</td>
+                    <td>Preis</td>
+                    <td>Anzahl</td>
+                    <td>Zwischensumme</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle" style="color:black"></i></a></td>
+                    <td><img src="images/prada.jpeg" alt=""></td>
+                    <td>PRADA Re-Nylon Puffer Vest</td>
+                    <td>€1000</td>
+                    <td><input type="number" value="1"></td>
+                    <td>€1000</td>
+                </tr>  
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div class="coupon">
+            <h3>Gutschein einlösen</h3>
+            <div>
+                <input type="text" placeholder="Gutscheincode eingeben">
+                <button class="normal">Einlösen</button>
+            </div>
+        </div>
+        <div class="subtotal">
+            <h3>Warenkorb Gesamt</h3>
+            <table>
+                <tr>
+                    <td>Zwischensumme</td>
+                    <td>1000 €</td>
+                </tr>
+                <tr>
+                    <td>Versand</td>
+                    <td>Kostenlos</td>
+                </tr>
+                <tr>
+                    <td><strong>Gesamt</strong></td>
+                    <td><strong>1000 €</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Zur Kasse</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Eilbeck, Hamburg, DE</p>
+            <p><strong>Phone:</strong> +49-123-4567890</p>
+            <p><strong>Hours:</strong> Montag bis Samstag: 9:00 bis 16:00 Uhr</p>
+            <div class="follow">
+                <h4> Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Über uns</h4>
+            <a href="#">Über uns</a>
+            <a href="#">Lieferinformationen</a>
+            <a href="#">Datenschutzerklärung</a>
+            <a href="#">Geschäftsbedingungen</a>
+            <a href="#">Kontakt</a>
+        </div>
+        <div class="col">
+            <h4>Mein Konto</h4>
+            <a href="#">Anmelden</a>
+            <a href="#">Warenkorb ansehen</a>
+            <a href="#">Wunschliste</a>
+            <a href="#">Bestellung verfolgen</a>
+            <a href="#">Hilfe</a>
+        </div>
+        <div class="col install">
+            <h4>App installieren</h4>
+            <p>Aus dem App Store oder Google Play</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+            </div>
+            <p>Sicheres Zahlungssystem</p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>Brandon Kuciapski | &#169; 2026</p>
+        </div>
+    </footer>
+
+    <!-- javascript script file link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
